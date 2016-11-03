@@ -8,6 +8,8 @@
 
 import UIKit
 
+let autoExpandingTextViewMinimumHeight: CGFloat = 50
+
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
@@ -15,7 +17,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     let reusableCellIdentifier = "cell"
 
     override func viewDidLoad() {
-        tableView.estimatedRowHeight = 50
+        tableView.estimatedRowHeight = autoExpandingTextViewMinimumHeight
         tableView.rowHeight = UITableViewAutomaticDimension
     }
 
