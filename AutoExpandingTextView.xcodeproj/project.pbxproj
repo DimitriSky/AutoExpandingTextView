@@ -12,6 +12,7 @@
 		83C87CEA1DCBCC6300795685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C87CE81DCBCC6300795685 /* Main.storyboard */; };
 		83C87CEC1DCBCC6300795685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C87CEB1DCBCC6300795685 /* Assets.xcassets */; };
 		83C87CEF1DCBCC6300795685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C87CED1DCBCC6300795685 /* LaunchScreen.storyboard */; };
+		83C87CF71DCBCEA400795685 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C87CF61DCBCEA400795685 /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		83C87CEB1DCBCC6300795685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83C87CEE1DCBCC6300795685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83C87CF01DCBCC6300795685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C87CF61DCBCEA400795685 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 			children = (
 				83C87CE41DCBCC6300795685 /* AppDelegate.swift */,
 				83C87CE61DCBCC6300795685 /* ViewController.swift */,
+				83C87CF61DCBCEA400795685 /* Cell.swift */,
 				83C87CE81DCBCC6300795685 /* Main.storyboard */,
-				83C87CEB1DCBCC6300795685 /* Assets.xcassets */,
 				83C87CED1DCBCC6300795685 /* LaunchScreen.storyboard */,
+				83C87CEB1DCBCC6300795685 /* Assets.xcassets */,
 				83C87CF01DCBCC6300795685 /* Info.plist */,
 			);
 			path = AutoExpandingTextView;
@@ -138,6 +141,7 @@
 			files = (
 				83C87CE71DCBCC6300795685 /* ViewController.swift in Sources */,
 				83C87CE51DCBCC6300795685 /* AppDelegate.swift in Sources */,
+				83C87CF71DCBCEA400795685 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +303,7 @@
 				83C87CF51DCBCC6300795685 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
